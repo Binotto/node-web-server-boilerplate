@@ -15,7 +15,9 @@ app.get('/help', (req, res) => {
 
 //app.com/about
 app.get('/about', (req, res) => {
-    res.send('About page')
+    res.send({
+        name: 'Matheus Binotto'
+    })
 })
 
 app.listen(3000, () => {
