@@ -13,10 +13,13 @@ app.get('/help', (req, res) => {
     res.send('Help page')
 })
 
+//app.com/about
+app.get('/about', (req, res) => {
+    res.send('About page')
+})
 
 app.listen(3000, () => {
     console.log('Server is up on port 3000')
 })
 
 
-//app.com/about
