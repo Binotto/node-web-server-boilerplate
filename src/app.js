@@ -5,7 +5,7 @@ const app = express()
 
 //app.com
 app.get('', (req, res) => {
-    res.send('Hello Express')
+    res.send('<h1>Hello Express!</h1>')
 })
 
 //app.com/help
