@@ -1,5 +1,8 @@
+const path = require('path')
 const express = require('express')
 
+console.log(__dirname)
+console.log(__filename)
 
 const app = express()
 
